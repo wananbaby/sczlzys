@@ -7,25 +7,13 @@
 	</head>
 	<body>
 		<div id="app">
-			{{ message }}
-			<h1> {{ school.name }} </h1>
-			<ul>
-<!-- 				<li>{{campus[0]}}</li>
-				<h2 v-text='campus'></h2> -->
-				<h1 v-for='campus[i]'></h1>
-			</ul>
+			<div v-text='message'></div>
 		</div>
 		<script>
 			var app = new Vue({
-				<!--el 内部都可用-->
-				el:"#app", <!--挂载-->
+				el:"#app",
 				data:{
-					message: "你好 vue!",
-					school:{
-						name:"xiashu",
-						phone:"400517517"
-					},
-					campus:["a","b","c","d"]
+					message: "你好 vue!"
 				}
 			})
 			
