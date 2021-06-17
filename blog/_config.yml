@@ -13,9 +13,9 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-#url: http://example.com # 本地启动请切换这个 并注释掉root
-url: https://wananbaby.github.io
-root: /blog/
+url: http://example.com/ # 本地启动请切换这个 并注释掉root
+# url: https://wananbaby.github.io
+#root: /blog
 #permalink: :year/:month/:day/:title/
 permalink: /post/:title.html
 permalink_defaults:
@@ -106,8 +106,8 @@ theme: aurora
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: https://github.com/wananbaby/blog.git
-  # example, https://github.com/hexojs/hexojs.github.io
-  branch: gh-pages
+# deploy:
+#   type: git
+#   repo: https://github.com/wananbaby/blog.git
+#   # example, https://github.com/hexojs/hexojs.github.io
+#   branch: gh-pages

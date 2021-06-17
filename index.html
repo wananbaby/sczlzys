@@ -121,10 +121,15 @@
     var md5_name = hex_md5(hex_md5(loginDTO.UserName))
     var md5_pass = hex_md5(hex_md5(loginDTO.UserName))
 	if(md5_name == '66eee9ace7508c154d02022000e1cf86' && md5_pass == '66eee9ace7508c154d02022000e1cf86'){
-		alert("管理员"+loginDTO.UserName+"登录成功")
+		alert("管理员登录成功")
 		window.Route
 		window.location.href='home.html';
 	}
+	else {
+	  alert("非管理员正在跳转博客页")
+      window.Route
+      window.location.href='http://127.0.0.1:4000'
+    }
   //   $.ajax({
   //     url:"http://localhost:9096/wexin/UserLogin",
   //     data: JSON.stringify(loginRequest),

@@ -1,5 +1,6 @@
 ---
 title: about
+abbrlink: 55988
 date: 2021-06-08 13:37:37
 tags:
 ---

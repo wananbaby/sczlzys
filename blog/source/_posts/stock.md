@@ -1,10 +1,11 @@
 ---
 title: stock
-date: 2021-06-07 18:39:07
 tags:
   - stock
-cover: https://cover.png
+cover: 'https://cover.png'
 feature: true
+abbrlink: 14663
+date: 2021-06-07 18:39:07
 ---
 # 金融量化交易
 
