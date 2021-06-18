@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html >
 <head>
-<meta charset="UTF-8">
-<title>后台管理</title>
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>后台管理</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+
 <main>
   <form class="form" style="display: block" id="one">
     <div class="form__cover"></div>
@@ -57,6 +57,22 @@
     </div>
   </form>
   <div style="position: absolute;bottom:0;width: 50%">
+    <h3 style="text-align: center">
+      <span onclick="function home_href() {
+        alert('由于涉及个人隐私，暂请输入管理员密码（小提示：可用户名输入你的名字试试）\'')
+      }
+      home_href()"><label>|主页|-</label></span>
+      <span onclick="function blog_href() {
+        window.Route
+        window.location.href='http://127.0.0.1:4000';
+      }
+      blog_href()"><label>-|博客|-</label></span>
+      <span onclick="function visa_href() {
+        window.Route
+        window.location.href='http://127.0.0.1:3000';
+      }
+      visa_href()"><label>-|美签|</label></span>
+    </h3>
     <button type="button" class="styled-button" id="one_one" style="display: none" onclick="btnCut1()">
       <span class="styled-button__real-text-holder">
         <span class="styled-button__real-text">登录</span>
@@ -89,7 +105,7 @@
     </button>
   </div>
 </main>
-<script  src="js/index.js"></script>
+<script src="js/index.js"></script>
 <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
 <script type="text/ecmascript" src="js/md5.js"></script>
 <script type="text/javascript">
@@ -119,17 +135,37 @@
       loginDTO: loginDTO
     };
     var md5_name = hex_md5(hex_md5(loginDTO.UserName))
-    var md5_pass = hex_md5(hex_md5(loginDTO.UserName))
+    var md5_pass = hex_md5(hex_md5(loginDTO.UserPassword))
 	if(md5_name == '66eee9ace7508c154d02022000e1cf86' && md5_pass == '66eee9ace7508c154d02022000e1cf86'){
 		alert("管理员登录成功")
 		window.Route
 		window.location.href='home.html';
 	}
 	else {
-	  alert("非管理员正在跳转博客页")
-      window.Route
-      window.location.href='http://127.0.0.1:4000'
-    }
+      $.ajax({
+        async: true,
+        type: "POST",
+        url:'http://127.0.0.1:8000/denglu',
+        data:JSON.stringify({
+          "name":loginDTO.UserName,
+          "pw":loginDTO.UserPassword
+        }),
+        dataType: "json",
+        success: function (data) {
+          if (data == "ok"){
+            alert("欢迎我的同学")
+            window.Router
+            window.location.href='home.html'
+          }else {
+            window.Route
+            window.location.href='http://127.0.0.1:4000';
+          }
+        },
+        error: function (e) {
+          alert(e)
+        }
+    })
+	}
   //   $.ajax({
   //     url:"http://localhost:9096/wexin/UserLogin",
   //     data: JSON.stringify(loginRequest),
