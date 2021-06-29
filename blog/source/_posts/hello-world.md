@@ -3,7 +3,6 @@ title: Hello World
 tags:
   - home
 cover: 'https://cover.png'
-feature: true
 abbrlink: 16107
 date: 2021-06-07 17:19:23
 ---

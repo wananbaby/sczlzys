@@ -83,7 +83,7 @@ socials:
        link: https://github.com/wananbaby
     网址:
       icon: https://iconfont.alicdn.com/t/a1b9c55d-637b-4523-b97e-7f266cae53ef.png
-      link: http://www.sczlzys.com
+      link: https://www.sczlzys.com
   ##! Example:
   ##! --- Using SVG
   # bilibili:
@@ -120,11 +120,11 @@ site_meta:
 gitalk:
   enable: true
   autoExpand: true
-  clientID: ''
-  clientSecret: ''
-  repo: 'dev-blog-comments'
-  owner: 'TriDiamond'
-  admin: ['TriDiamond']
+  clientID: 'e5caa9d8cedd1e9f602d'
+  clientSecret: '0935a3477c7112d548962af98de85e992bc609e0'
+  repo: 'sczlzys-gitalk'
+  owner: 'zys'
+  admin: ['zys']
   id: uid
   language: en
   distractionFreeMode: true
