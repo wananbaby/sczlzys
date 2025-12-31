@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae5c4232-2480-42b3-8507-6aaae893f463" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sczlzys.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sczlzys.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/public/api/articles/DeepSort.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/api/articles/DeepSort.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/public/api/articles/hello-world.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/api/articles/hello-world.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/public/api/articles/stock.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/api/articles/stock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/public/api/authors/blog-author.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/api/authors/blog-author.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/public/api/features.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/api/features.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/public/api/pages/about/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/api/pages/about/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/public/api/pages/message-board/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/api/pages/message-board/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/public/api/pages/stock/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/api/pages/stock/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/public/api/posts/1.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/api/posts/1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/public/api/site.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/api/site.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/public/api/tags/DeepSort.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/api/tags/DeepSort.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/public/api/tags/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/api/tags/home.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/public/api/tags/stock.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog/public/api/tags/stock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,27 +13,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../newHome" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2GarqMX8BrNjnOY8pjagQCQm5mv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/Application/newHome",
-    "settings.editor.selected.configurable": "configurable.group.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/git/sczlzys&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-PY-253.28294.336" />
+        <option value="bundled-python-sdk-0978a7220b69-9867c7d4c0a4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.28294.336" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,6 +59,10 @@
       <updated>1666637726414</updated>
       <workItem from="1666637729032" duration="124000" />
       <workItem from="1666637866575" duration="2460000" />
+      <workItem from="1765968730091" duration="882000" />
+      <workItem from="1766042052146" duration="2078000" />
+      <workItem from="1766050418560" duration="4738000" />
+      <workItem from="1766128420048" duration="19000" />
     </task>
     <servers />
   </component>
@@ -74,5 +79,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
